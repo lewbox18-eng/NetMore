@@ -1,0 +1,15 @@
+name: GitShopBridge
+main: com.gitshop.plugin.GitShopPlugin
+version: 1.0.1
+api-version: "1.20"
+authors:
+  - Codex
+commands:
+  gitshopsync:
+    description: Triggers an immediate sync against the GitShop backend
+    usage: /gitshopsync [reload]
+    permission: gitshop.admin
+permissions:
+  gitshop.admin:
+    description: Allows manual polling and config reload
+    default: op

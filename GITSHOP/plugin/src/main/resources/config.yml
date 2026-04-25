@@ -1,0 +1,31 @@
+api:
+  base-url: "http://127.0.0.1:8787"
+  plugin-token: "change-plugin-token"
+  server-id: "paper-survival-01"
+  poll-interval-seconds: 20
+  batch-size: 10
+
+announcement:
+  enabled: true
+  text: "Player {username} has bought {items}!"
+  shop-url: "https://your-shop.example.com"
+  shop-link-text: "Visit our shop"
+  open-receipt-gui: true
+
+rewards:
+  vip-rank:
+    commands:
+      - "lp user %player% parent add vip"
+      - "essentials:sethomebonus %player% 2"
+  ember-trail:
+    commands:
+      - "cosmetics give %player% trail ember"
+  xp-booster:
+    commands:
+      - "booster give %player% personal_xp 1.5 48h"
+  crate-bundle:
+    commands:
+      - "crate key give %player% premium 5"
+  netmore-key:
+    commands:
+      - "key %player% netmore 1"

@@ -1,0 +1,10 @@
+com\gitshop\plugin\service\DeliveryLedger.class
+com\gitshop\plugin\api\ShopApiClient.class
+com\gitshop\plugin\model\PluginSettings.class
+com\gitshop\plugin\service\OrderPoller.class
+com\gitshop\plugin\service\RewardService.class
+com\gitshop\plugin\model\PendingOrder$RewardLineItem.class
+com\gitshop\plugin\model\PendingOrder.class
+com\gitshop\plugin\GitShopPlugin.class
+com\gitshop\plugin\service\AnnouncementService.class
+com\gitshop\plugin\model\DeliveryResult.class
