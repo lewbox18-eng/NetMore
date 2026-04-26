@@ -1,6 +1,6 @@
 window.GitShopConfig = Object.freeze({
   shopName: "NetMore",
-  apiBaseUrl: "http://localhost:8787",
-  shopUrl: "https://your-shop.example.com",
+  apiBaseUrl: "https://netmore.up.railway.app",
+  shopUrl: "https://lewbox18-eng.github.io",
   currency: "USD"
 });
